@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal Website of Ashwin Ned, Robotics Graduate Student">
-    <title>Ashwin Ned - Robotics Student</title>
+    <link rel="icon" type="image/svg+xml" href="./images/static/logo.svg">
+    <title>Ashwin Ned</title>
 
     <!-- External fonts and CSS (optional, adjust as needed) -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
@@ -22,8 +23,8 @@
 
         /* Header Section */
         header {
-            background-color: #5e0029;
-            color: white;
+            background-color: #f5f0f0;
+            color: black;
             padding: 20px;
             text-align: center;
         }
@@ -31,20 +32,6 @@
         h1 {
             margin: 0;
             font-size: 2.5em;
-        }
-
-        nav {
-            margin: 20px 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
         }
 
         /* Main Content */
@@ -69,13 +56,14 @@
         /* Profile section */
         .profile {
             display: flex;
+            align-items: center;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         .profile img {
             max-width: 250px;
-            border-radius: 50%;
+            border-radius:0%;
         }
 
         .profile-text {
@@ -84,15 +72,9 @@
 
         /* Footer */
         footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
+            display: none;
         }
 
-        footer p {
-            margin: 0;
-        }
     </style>
 </head>
 
@@ -100,41 +82,46 @@
 
     <!-- Header Section -->
     <header>
-        <h1>Ashwin Ned</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#research">Research</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>Ashwin Nedungadi</h1>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section id="about" class="intro">
-            <h2>About Me</h2>
-            <p>I received my Bachelor's degree in Electrical Engineering and Computer Science from Czech Technical University Prague in 2020 after successfully defending my Thesis, <em>"Design of an Electromagnetic Gripper for Unmanned Aerial Vehicles,"</em> at Multi-Robot Systems under Dr. Martin Saska.</p>
-            <p>I am finishing my Master's degree in Automation and Robotics at Technische Universität Dortmund and working on my Master's Thesis topic, <em>"A Monocular Vision Architecture for Fill Estimation in Shipping Containers,"</em> with the Robotics and Cognitive Systems team at Fraunhofer IML.</p>
-            <p>My expertise lies in Computer Vision Algorithms, Deep Learning, 3D Perception, and SLAM. I also have professional working experience in the logistics and bin-picking industry.</p>
-            <p>My future interests include Multi-Modal Perception, Neuromorphic Systems, Mobile Robotics, AR/VR Technologies, and Edge Computing.</p>
-            <p>You can contact me via <a href="mailto:ashwin.ned@gmail.com">Email</a>, <a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank">LinkedIn</a>, or <a href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=HD26ITEAAAAJ&gmla=AJsN-F7e_aVdh_cYdE-LGNwVWViVS_m3gAjMdEAuV2asdQ8zcZ_NNFsTfeMDJHBejvv-aiob9Tw30S3c8Poo2lsF1VC8iurxEcUU3vBR5wczLgymCUomUtey8Het0NQobeU4-8n6B2ik" target="_blank">Google Scholar</a>.</p>
-        </section>
 
-        <section id="research" class="profile">
+        <!-- Profile Section -->
+        <section class="profile">
+            <img src="./images/static/profile-picture.jpg" alt="Ashwin Ned">
             <div class="profile-text">
-                <h2>Research Interests</h2>
-                <p>I focus on computer vision, deep learning, and autonomous mobile robots, emphasizing building intelligent and adaptive systems.</p>
-                <p>My current research revolves around <strong>3D Perception</strong> and <strong>Egocentric Perception</strong>.</p>
-            </div>
-            <div class="profile-img">
-                <img src="./images/static/profile-picture.jpg" alt="Ashwin Ned">
+                <h2>About Me</h2>
+                <p>I received my Bachelor's degree in Electrical Engineering and Computer Science from Czech Technical University Prague in 2020 after successfully defending my Thesis, <em>"Design of an Electromagnetic Gripper for Unmanned Aerial Vehicles,"</em> at Multi-Robot Systems under Dr. Martin Saska.</p>
+                <p>I am finishing my M.Sc. Robotics at Technische Universität Dortmund and working on my Master's Thesis topic, <em>"A Monocular Vision Architecture for Fill Estimation in Shipping Containers,"</em> with the Robotics and Cognitive Systems team at Fraunhofer IML.</p>
+                <p>My expertise lies in Computer Vision Algorithms, Deep Learning, 3D Perception, and SLAM. I also have professional working experience in the logistics and bin-picking industry.</p>
+                <p>My future interests include Multi-Modal Perception, Neuromorphic Systems, Mobile Robotics, AR/VR Technologies, and Edge Computing.</p>
+                <p>You can contact me via <a href="mailto:ashwin.ned@gmail.com">Email</a>, <a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank">LinkedIn</a>, or <a href="https://scholar.google.ca/citations?view_op=list_works&hl=en&user=HD26ITEAAAAJ&gmla=AJsN-F7e_aVdh_cYdE-LGNwVWViVS_m3gAjMdEAuV2asdQ8zcZ_NNFsTfeMDJHBejvv-aiob9Tw30S3c8Poo2lsF1VC8iurxEcUU3vBR5wczLgymCUomUtey8Het0NQobeU4-8n6B2ik" target="_blank">Google Scholar</a>.</p>
             </div>
         </section>
-    </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Ashwin Ned. All rights reserved.</p>
-    </footer>
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>I focus on computer vision, deep learning, and autonomous mobile robots, emphasizing building intelligent and adaptive systems. I am currently a Research Associate at Fraunhofer IML working on Single-View 3D Reconstruction for Application in Logistics.My research revolves around <strong>3D Perception</strong> and <strong>Egocentric Perception</strong>.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Anomaly Detection in Time Series Data for Wire-Cutting Process - June 2024</li>
+                <li>Technology-driven Innovative Solutions using Generative AI for BvB - February 2024</li>
+                <li>Multi-View SfM for Historic Artifacts - April 2022</li>
+                <li>Stereo Reconstruction of Martian Geology - October 2021</li>
+                <li>Industrial Bin Picking 3D Perception using Zivid - March 2021</li>
+                <li>Grasping mechanism for UAVs MBZIRC 2020 - January 2019</li>
+                <li>Lidar Integration for NIFTi - July 2018</li>
+            </ul>
+        </section>
+
+    </main>
 
 </body>
 

@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  text-rendering: optimizeLegibility; /* voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
@@ -137,5 +137,18 @@ ul.main-menu li a.active {
   display:block;
 }
 
+/* Profile Image Styling */
+.profile img {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 0; /* Ensures it's a box shape */
+}
 
+/* Align Research Interests and Projects sections to the left */
+.section-left {
+  text-align: left;
+  margin: 20px 0;
+}
 
