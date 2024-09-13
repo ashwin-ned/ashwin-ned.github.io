@@ -1,79 +1,137 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Ashwin Ned.</title>
-    <meta name="description" content="Personal Website and Portfolio">
-    <meta name="Ashwin Nedungadi" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Website of Ashwin Ned, Robotics Graduate Student">
+    <title>Ashwin Ned - Robotics Student</title>
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <!-- External fonts and CSS (optional, adjust as needed) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     
-  </head>
-  
-  <body>
+    <style>
+        /* Global style */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-    <header id="header">
-      <img src="logo.jpg">
-      <h1>Ashwin Nedungadi</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+        /* Header Section */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+        }
+
+        /* Profile section */
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .profile img {
+            max-width: 250px;
+            border-radius: 50%;
+        }
+
+        .profile-text {
+            max-width: 700px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Ashwin Ned</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#research">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </div>
 
-    <footer>  
-      Footer region
+    <!-- Main Content -->
+    <main>
+        <section id="about" class="intro">
+            <h2>About Me</h2>
+            <p>Hello, I’m Ashwin Ned, a graduate student in Robotics. Welcome to my personal website where I share my research and projects in robotics, AI, and machine learning.</p>
+        </section>
+
+        <section id="research" class="profile">
+            <div class="profile-text">
+                <h2>Research Interests</h2>
+                <p>I focus on computer vision, deep learning, and robotic systems with an emphasis on building intelligent and adaptive systems.</p>
+                <p>My current research revolves around <strong>autonomous systems</strong> and <strong>collaborative robots</strong>.</p>
+            </div>
+            <div class="profile-img">
+                <img src="your-profile-picture.jpg" alt="Ashwin Ned">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ashwin Ned. All rights reserved.</p>
     </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+
+</body>
+
 </html>
