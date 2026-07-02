@@ -1,0 +1,50 @@
+# ── Site ──────────────────────────────────────────────────────────────
+title: Ashwin Nedungadi
+tagline: Egocentric Perception × Robotics
+description: >-
+  Ashwin Nedungadi — PhD researcher at the Institute for Visual and Analytic
+  Computing (University of Rostock), working at the intersection of egocentric
+  perception and robotics: multimodal LLMs, spatial perception, and embodied AI.
+author: Ashwin Nedungadi
+email: ashwin.ned@gmail.com
+
+# Production URL. For a user/organization page this stays empty.
+url: "https://ashwin-ned.github.io"
+baseurl: ""
+
+# ── Build ─────────────────────────────────────────────────────────────
+# Permalinks: /blog/<title>/ for posts, clean URLs for pages.
+permalink: /blog/:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM            # GitHub-flavoured markdown
+  hard_wrap: false
+
+# github-pages whitelisted plugins only (no Actions required to build)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Blog feed location
+feed:
+  path: /feed.xml
+
+# Defaults: posts use the post layout, pages use the page layout
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+  - scope: { path: "" }
+    values: { layout: "page" }
+
+# Pagination-free for v1 — add jekyll-paginate-v2 later if the blog grows.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .sass-cache
+  - .jekyll-cache

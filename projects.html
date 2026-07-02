@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Past Projects — Ashwin Nedungadi</title>
+<meta name="description" content="Past research and engineering projects by Ashwin Nedungadi — robotics, computer vision, and 3D reconstruction across Prague, Dortmund, and Rome.">
+<meta name="theme-color" content="#121417" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<script>
+(function(){try{var s=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.setAttribute('data-theme',s||(d?'dark':'light'));}catch(e){document.documentElement.setAttribute('data-theme','light');}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Ashwin Nedungadi</a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="index.html#about">About</a>
+      <a class="nav-link" href="index.html#research">Research</a>
+      <a class="nav-link" href="index.html#publications">Publications</a>
+      <a class="nav-link" href="index.html#news">News</a>
+      <a class="nav-link is-active" href="projects.html">Projects</a>
+      <a class="nav-link" href="art.html">Art</a>
+      <a class="nav-link" href="index.html#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>
+      </button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head" id="top">
+  <div class="wrap">
+    <a class="back-link" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>Home</a>
+    <h1>Past Projects</h1>
+    <p class="role">A portfolio of past research and engineering work — robotics, computer vision, and 3D reconstruction across Prague, Dortmund, and Rome. Click any image to enlarge.</p>
+  </div>
+</header>
+
+<main>
+<section class="wrap" id="projects">
+  <h2 class="section-title">Project Portfolio</h2>
+  <div class="proj-list">
+        <div class="proj"><div class="yr">2025</div><div><h3>Free Volume Estimation using Monocular Vision in Logistics</h3><div class="org">Fraunhofer IML — in partnership with DB Schenker · Feb 2025</div><p>Master's thesis: a computer-vision pipeline that estimates the free volume inside shipping containers from a single phone image, replacing costly manual measurement. The work fine-tunes monocular depth estimators on domain-specific data, reconstructs watertight meshes from single-image point clouds, and benchmarks against traditional methods — showing monocular depth is viable for real logistics and supply-chain efficiency.</p><div class="tags"><span class="tag">Monocular Depth</span><span class="tag">3D Reconstruction</span><span class="tag">Logistics</span></div><div class="links"><a href="https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/cargosight.html" target="_blank" rel="noopener">Project</a></div></div><a class="proj-thumb" href="assets/img/projects/free-volume.jpg" data-lightbox data-caption="Free Volume Estimation — 3D reconstruction of a container interior"><img src="assets/img/projects/free-volume.jpg" alt="Reconstructed 3D mesh of a shipping container interior" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2024</div><div><h3>Anomaly Detection in Time-Series Data for Wire-Cutting</h3><div class="org">Institute for Production Systems (IPS), TU Dortmund — with Bosch · Jun 2024</div><p>Predictive maintenance for wire-cutting machinery. We analyse spectrograms of high-frequency torque data to train neural networks that classify and predict anomalies, using t-SNE and clustering to surface failure patterns — enabling timely maintenance and reliable production systems.</p><div class="tags"><span class="tag">Time Series</span><span class="tag">Spectrograms</span><span class="tag">Predictive Maintenance</span></div><div class="links"><a href="https://github.com/ashwin-ned/bosch-wire-cutting-classification" target="_blank" rel="noopener">GitHub</a></div></div><a class="proj-thumb" href="assets/img/projects/anomaly-detection.jpg" data-lightbox data-caption="Anomaly Detection — torque spectrograms & failure clustering (Bosch)"><img src="assets/img/projects/anomaly-detection.jpg" alt="Torque spectrograms and clustering for wire-cutting anomaly detection" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2024</div><div><h3>Generative-AI Solutions for Borussia Dortmund (BvB)</h3><div class="org">Chair of Digital Transformation, TU Dortmund · Feb 2024</div><p>A design-thinking and digital-innovation project with BvB's online merchandising team. We built and presented a working prototype on Microsoft Azure (Language Studio): a chatbot that collects feedback, answers product questions, and helps customers pick the right sizes — balancing customer need, market potential, and technical feasibility.</p><div class="tags"><span class="tag">Generative AI</span><span class="tag">Azure</span><span class="tag">Product Prototype</span></div></div><a class="proj-thumb" href="assets/img/projects/genai-bvb.jpg" data-lightbox data-caption="Generative-AI prototype for Borussia Dortmund"><img src="assets/img/projects/genai-bvb.jpg" alt="Borussia Dortmund (BvB) crest" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2022</div><div><h3>Multi-View SfM for Historic Artifacts</h3><div class="org">Computer Vision Lab, Sapienza University, Rome · Apr 2022</div><p>An open-source Structure-from-Motion pipeline for reconstructing Roman artifacts captured on mobile devices — letting students and archaeologists worldwide access and examine museum pieces from Rome in 3D.</p><div class="tags"><span class="tag">Structure from Motion</span><span class="tag">3D Reconstruction</span><span class="tag">Open Source</span></div><div class="links"><a href="https://github.com/ashwin-ned/SfM4Artifacts" target="_blank" rel="noopener">GitHub</a></div></div><a class="proj-thumb" href="assets/img/projects/sfm-artifacts.jpg" data-lightbox data-caption="Multi-View SfM — a Roman artifact reconstructed in 3D"><img src="assets/img/projects/sfm-artifacts.jpg" alt="3D-reconstructed Roman statue from Structure-from-Motion" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2021</div><div><h3>Stereo Reconstruction of Martian Geology</h3><div class="org">Image Processing Group, TU Dortmund · Oct 2021</div><p>Building 3D mesh models of the Martian surface from the engineering cameras of Perseverance (Mars 2020) and Curiosity (MSL). The work spanned image processing and 3D reconstruction via stereo and multi-view SfM, fused the result with a Digital Elevation Model, and integrated it into a VR experience.</p><div class="tags"><span class="tag">Stereo Vision</span><span class="tag">Planetary Mapping</span><span class="tag">VR</span></div><div class="links"><a href="https://www.youtube.com/watch?v=rSAgie2GPm8" target="_blank" rel="noopener">Video</a><a href="https://github.com/tusharvan/mars2020_PDS_tools" target="_blank" rel="noopener">Tools</a></div></div><a class="proj-thumb" href="assets/img/projects/mars-stereo.jpg" data-lightbox data-caption="Stereo Reconstruction — Martian surface from rover cameras"><img src="assets/img/projects/mars-stereo.jpg" alt="Martian surface imaged by a rover engineering camera" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2021</div><div><h3>Industrial Bin Picking</h3><div class="org">Fraunhofer IML / TU Dortmund — ML2R initiative · Mar 2021</div><p>A vision-based bin-picking system for industrial robotics. I built the computer-vision, grasping, and point-cloud pipelines on detectron2, using RGB-D data from a Zivid camera for precise recognition and localization, and helped create the DoPose dataset via an Iterative Closest Point (ICP) model-generation pipeline.</p><div class="tags"><span class="tag">RGB-D</span><span class="tag">Grasping</span><span class="tag">Detectron2</span><span class="tag">Dataset</span></div><div class="links"><a href="https://zenodo.org/records/6103779" target="_blank" rel="noopener">Dataset</a><a href="https://www.ml2r.de/en/landingpage/" target="_blank" rel="noopener">ML2R</a></div></div><a class="proj-thumb" href="assets/img/projects/bin-picking.jpg" data-lightbox data-caption="Industrial Bin Picking — objects for vision-based grasping"><img src="assets/img/projects/bin-picking.jpg" alt="Bin of objects for vision-based robotic picking" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2019</div><div><h3>Grasping Mechanism for UAVs — MBZIRC 2020</h3><div class="org">Multi-Robot Systems, Czech Technical University · Jan 2019</div><p>Bachelor's thesis: an active, reliable grasping mechanism for autonomous UAVs to build cooperative walls for the Mohamed Bin Zayed International Robotics Challenge 2020. The team placed first, with a short paper published in Springer's Lecture Notes in Computer Science (LNCS).</p><div class="tags"><span class="tag">UAV</span><span class="tag">Mechatronics</span><span class="tag">Grasping</span></div><div class="links"><a href="https://link.springer.com/chapter/10.1007/978-3-030-43890-6_13" target="_blank" rel="noopener">Paper</a><a href="https://mrs.fel.cvut.cz/mbzirc2020" target="_blank" rel="noopener">Article</a><a href="https://github.com/ashwin-ned/Electromagnetic-Gripper" target="_blank" rel="noopener">GitHub</a></div></div><a class="proj-thumb" href="assets/img/projects/uav-gripper.jpg" data-lightbox data-caption="Grasping Mechanism — electromagnetic gripper for UAVs (MBZIRC 2020)"><img src="assets/img/projects/uav-gripper.jpg" alt="UAV with electromagnetic grasping mechanism" loading="lazy"></a></div>
+        <div class="proj"><div class="yr">2018</div><div><h3>LIDAR Integration for NIFTi</h3><div class="org">Centre for Machine Perception, Czech Technical University · Jul 2018</div><p>With the Vision for Robotics and Autonomous Systems (VRAS) group on the NIFTi EU project: integrating a Velodyne VLP-16 LiDAR onto a ground robot so it could perform SLAM and localize accurately under low-visibility, hazardous conditions for search-and-rescue.</p><div class="tags"><span class="tag">LiDAR</span><span class="tag">SLAM</span><span class="tag">Search & Rescue</span></div><div class="links"><a href="https://www.dfki.de/web/forschung/projekte-publikationen/projekte-uebersicht/projekt/nifti/" target="_blank" rel="noopener">NIFTi</a></div></div><a class="proj-thumb" href="assets/img/projects/lidar-nifti.jpg" data-lightbox data-caption="LiDAR Integration — Velodyne VLP-16 on a search-and-rescue robot"><img src="assets/img/projects/lidar-nifti.jpg" alt="Ground robot fitted with a Velodyne LiDAR" loading="lazy"></a></div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Ashwin Nedungadi · <a href="index.html">Home</a></span>
+    <span><a href="https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en" target="_blank" rel="noopener">scholar</a><a href="https://github.com/ashwin-ned" target="_blank" rel="noopener">github</a><a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank" rel="noopener">linkedin</a></span>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lb-close" type="button" aria-label="Close">&times;</button>
+  <figure class="lb-figure"><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

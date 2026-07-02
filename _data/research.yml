@@ -1,0 +1,56 @@
+# ── Ongoing research ──────────────────────────────────────────────────
+# status: one of  active | exploratory
+ongoing:
+  - name: SEPIA
+    expansion: Spatial Egocentric Perception for Interactive Agents
+    status: active
+    blurb: >-
+      A perception stack that lets interactive agents build and query spatial
+      memory from first-person video — grounding what an agent sees into where
+      it can act.
+    tags: [Egocentric Vision, Spatial Memory, Embodied AI]
+    url:
+
+  - name: Show2Instruct
+    expansion: Learning manipulation from demonstration
+    status: active
+    blurb: >-
+      Turning human demonstrations into executable robot instructions, bridging
+      egocentric observation and language-conditioned control.
+    tags: [Imitation, Multimodal LLMs, Manipulation]
+    url: https://show2instruct.com
+
+  - name: Dynamo
+    expansion: CORE Labs
+    status: active
+    blurb: >-
+      Dynamic scene understanding for autonomy, developed within CORE Labs —
+      reasoning about motion and change in unstructured environments.
+    tags: [Scene Understanding, Temporal Graphs]
+    url: https://www.core-network.ai/#/dynamo
+
+  - name: PRiSM
+    expansion: Perception, reasoning & spatial modelling
+    status: exploratory
+    blurb: >-
+      Early-stage work connecting multimodal reasoning to explicit spatial
+      models for robot decision-making.
+    tags: [Spatial Perception, Reasoning]
+    url:
+
+# ── Past research ─────────────────────────────────────────────────────
+past:
+  - name: CargoSight
+    role: Master's thesis
+    blurb: Monocular free-volume estimation for logistics at Fraunhofer IML.
+    url: https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/cargosight.html
+
+  - name: ML2R — Perception for Industrial Bin Picking
+    role: Research assistant (HiWi)
+    blurb: Vision-based grasping and the DoPose dataset, Fraunhofer IML.
+    url: https://www.ml2r.de/en/landingpage/
+
+  - name: MBZIRC 2020
+    role: Bachelor's thesis
+    blurb: Electromagnetic grasping for cooperative UAV wall-building (1st place).
+    url: https://mrs.fel.cvut.cz/mbzirc2020

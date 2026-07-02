@@ -1,12 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<title>Redirecting to custom domain...</title>-->
-    <meta http-equiv="refresh" content="0;url=http://www.ashwin-ned.com">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashwin Nedungadi</title>
+<meta name="description" content="Ashwin Nedungadi — PhD researcher in egocentric perception and robotics at the Institute for Visual and Analytic Computing, University of Rostock.">
+<meta name="theme-color" content="#121417" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<script>
+(function(){try{var s=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.setAttribute('data-theme',s||(d?'dark':'light'));}catch(e){document.documentElement.setAttribute('data-theme','light');}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <p>If you are not redirected, <a href="http://www.ashwin-ned.com">click here</a>.</p>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">Ashwin Nedungadi</a>
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="#publications">Publications</a>
+      <a class="nav-link" href="#news">News</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="art.html">Art</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <button class="toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>
+      </button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="intro" id="top">
+  <div class="wrap intro-grid">
+    <div class="intro-text">
+      <h1>Ashwin Nedungadi</h1>
+      <p class="role">PhD researcher in Computer Science · <a href="https://vac.uni-rostock.de" target="_blank" rel="noopener">Institute for Visual &amp; Analytic Computing</a>, University of Rostock · Rostock, Germany</p>
+      <div class="links-row"><a href="assets/Ashwin-Nedungadi-CV.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>CV (PDF)</a><a href="mailto:ashwin.ned@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a><a href="https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 1 8.5 12 15l9-5.32V16h2V8.5L12 2Z"/><path d="M5 12.6V16c0 1.66 3.13 3.5 7 3.5s7-1.84 7-3.5v-3.4l-7 4.14-7-4.14Z"/></svg>Google Scholar</a><a href="https://github.com/ashwin-ned" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12 11.5 11.5 0 0 0 8.4 23c.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a><a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.25 8.25h4.5V24h-4.5V8.25ZM8.5 8.25h4.31v2.15h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V24h-4.5v-7.14c0-1.7-.03-3.9-2.37-3.9-2.38 0-2.74 1.85-2.74 3.77V24H8.5V8.25Z"/></svg>LinkedIn</a></div>
+    </div>
+    <div class="photo"><img src="assets/img/profile.jpg" alt="Ashwin Nedungadi"></div>
+  </div>
+</header>
+
+<main>
+<section class="wrap" id="about">
+  <div class="prose">
+    <p class="lead">I work at the intersection of egocentric perception and robotics, on problems where perception models sharpen autonomy and real-world decision-making in robots. Within <a href="https://www.core-network.ai" target="_blank" rel="noopener">CORE Labs</a> I lead the robotics effort, focusing on multimodal LLMs and spatial perception — getting machines to build usable spatial understanding from what they see.</p>
+    <p>My research interests span visual intelligence, temporal graphs, neuromorphic systems, embodied AI, and mixed reality. Before Rostock I trained as a roboticist across Prague, Dortmund, and Rome, working on everything from UAV grasping mechanisms and LiDAR-based SLAM to monocular depth estimation and 3D reconstruction — a hardware-to-perception range that still shapes how I think about embodied systems.</p>
+  </div>
+  <dl class="facts" aria-label="Education and roles">
+    <div class="fact"><dt>Now</dt><dd>PhD, Computer Science — University of Rostock<span class="sub">Robotics lead, CORE Labs · Institute for Visual &amp; Analytic Computing</span></dd></div>
+    <div class="fact"><dt>M.Sc.</dt><dd>Robotics — TU Dortmund, 2025 <span class="grade">GPA 1.9</span><span class="sub">Thesis at Fraunhofer IML with the DB Schenker Enterprise Lab · exchange semester in AI &amp; Robotics at Sapienza, Rome</span></dd></div>
+    <div class="fact"><dt>B.Sc.</dt><dd>Electrical Engineering &amp; Computer Science — CTU Prague, 2020 <span class="grade">GPA 1.6</span><span class="sub">Thesis with the Multi-Robot Systems group (Dr. Martin Saska)</span></dd></div>
+  </dl>
+  <div class="subhead">Skills</div>
+  <div class="skills" aria-label="Technical skills">
+    <div class="skill-row"><span class="skill-cat">Languages</span><span class="skill-vals">Python · C++ · C · Rust · MATLAB</span></div>
+    <div class="skill-row"><span class="skill-cat">Robotics &amp; Perception</span><span class="skill-vals">ROS2 · MoveIt! · NVIDIA Isaac Sim · SLAM · 3D Reconstruction · Monocular Depth · PCL</span></div>
+    <div class="skill-row"><span class="skill-cat">ML &amp; Frameworks</span><span class="skill-vals">PyTorch · Hugging Face Transformers · Detectron2 · OpenCV · Open3D · scikit-learn</span></div>
+    <div class="skill-row"><span class="skill-cat">Tools</span><span class="skill-vals">Docker · Git · CI/CD · Linux · Pinecone · MongoDB</span></div>
+  </div>
+</section>
+
+<section class="wrap" id="research">
+  <h2 class="section-title">Research</h2>
+  <div class="r-list">
+        <div class="r-item"><h3>SEPIA <span class="exp">Spatial Egocentric Perception for Interactive Agents</span><span class="status active">active</span></h3><p>A perception stack that lets interactive agents build and query spatial memory from first-person video — grounding what an agent sees into where it can act.</p></div>
+        <div class="r-item"><h3><a href="https://show2instruct.com" target="_blank" rel="noopener">Show2Instruct</a> <span class="exp">Learning manipulation from demonstration</span><span class="status active">active</span></h3><p>Turning human demonstrations into executable robot instructions, bridging egocentric observation and language-conditioned control.</p></div>
+        <div class="r-item"><h3><a href="https://www.core-network.ai/#/dynamo" target="_blank" rel="noopener">Dynamo</a> <span class="exp">CORE Labs</span><span class="status active">active</span></h3><p>Dynamic scene understanding for autonomy, developed within CORE Labs — reasoning about motion and change in unstructured environments.</p></div>
+        <div class="r-item"><h3>PRiSM <span class="exp">Perception, reasoning & spatial modelling</span><span class="status exploratory">exploratory</span></h3><p>Early-stage work connecting multimodal reasoning to explicit spatial models for robot decision-making.</p></div>
+  </div>
+  <p style="margin-top:1rem;"><a href="projects.html">Explore past projects &amp; engineering work →</a></p>
+</section>
+
+<section class="wrap" id="publications">
+  <h2 class="section-title">Publications</h2>
+  <ol class="pub-list">
+    <li class="pub"><div class="pub-year">2026</div><div class="pub-body"><p class="pub-title">MCP4IFC: IFC-based Building Design using Large Language Models</p><p class="pub-authors">B. K. Nithyanantham, T. Sesterhenn, <strong>A. Nedungadi</strong>, S. Peral Garijo, J. Zenkner, C. Bartelt, S. Lüdtke</p><p class="pub-venue">EC3 — European Conference on Computing in Construction, Corfu, Greece <span class="pub-tag accepted">accepted</span></p></div></li>
+    <li class="pub"><div class="pub-year">2025</div><div class="pub-body"><p class="pub-title">Monocular Depth Estimation for Efficient Volume Reconstruction in Logistics</p><p class="pub-authors"><strong>A. Nedungadi</strong>, C. Rest, J. Stenzel</p><p class="pub-venue">Manuscript in preparation <span class="pub-tag">in prep</span></p><div class="links"><a href="https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/cargosight.html" target="_blank" rel="noopener">Project</a></div></div></li>
+    <li class="pub"><div class="pub-year">2023</div><div class="pub-body"><p class="pub-title">3D Models of the Martian Surface in Virtual Reality</p><p class="pub-authors"><strong>A. Nedungadi</strong>, C. Wöhler, et al.</p><p class="pub-venue">AAS / Division for Planetary Sciences Meeting Abstracts, 55, 212.04 <span class="pub-tag">conference</span></p><div class="links"><a href="https://www.youtube.com/watch?v=rSAgie2GPm8" target="_blank" rel="noopener">Video</a></div></div></li>
+    <li class="pub"><div class="pub-year">2022</div><div class="pub-body"><p class="pub-title">DoPose: Dataset for Object Segmentation and 6D Pose Estimation</p><p class="pub-authors">A. Gouda, <strong>A. Nedungadi</strong>, et al.</p><p class="pub-venue">Zenodo · DOI 10.5281/zenodo.6103779 <span class="pub-tag">dataset</span></p><div class="links"><a href="https://zenodo.org/records/6103779" target="_blank" rel="noopener">Dataset</a></div></div></li>
+    <li class="pub"><div class="pub-year">2020</div><div class="pub-body"><p class="pub-title">Design of an Active-Reliable Grasping Mechanism for Autonomous Unmanned Aerial Vehicles</p><p class="pub-authors"><strong>A. S. Nedungadi</strong>, M. Saska</p><p class="pub-venue">Modelling and Simulation for Autonomous Systems (MESAS), Springer LNCS, pp. 162–179 <span class="pub-tag">conference</span></p><div class="links"><a href="https://link.springer.com/chapter/10.1007/978-3-030-43890-6_13" target="_blank" rel="noopener">Paper</a></div></div></li>
+  </ol>
+  <p style="margin-top:1rem;"><a href="https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en" target="_blank" rel="noopener">Full list on Google Scholar →</a></p>
+</section>
+
+<section class="wrap" id="awards">
+  <h2 class="section-title">Awards &amp; Recognition</h2>
+  <ul class="news-list">
+    <li class="news-item"><span class="news-date">2025</span><span class="news-text"><strong>1st place</strong>, HACK:XR+AI Hackathon (TUM) — “AURA”, an adaptive XR agent for communication disorders <span class="award-rank">1st / 14 teams</span></span></li>
+    <li class="news-item"><span class="news-date">2025</span><span class="news-text"><strong>1st place</strong>, DLAB VCP Pitch (TU Dortmund) — mixed-reality AI workflows for logistics <span class="award-rank">1st / 5 teams</span></span></li>
+    <li class="news-item"><span class="news-date">2024</span><span class="news-text"><strong>1st place</strong>, Opt-In Hackathon — vision-based emotion recognition for smart lighting <span class="award-rank">1st / 8 teams</span></span></li>
+    <li class="news-item"><span class="news-date">2023</span><span class="news-text"><strong>2nd place</strong>, Hackathon am Ring — “Vocal Eye”, real-time voice-intent recognition microservice</span></li>
+    <li class="news-item"><span class="news-date">2022</span><span class="news-text"><strong>2nd place</strong>, Image Denoising Challenge (TU Dortmund) — PDE-based restoration of brain scans <span class="award-rank">2nd / 80</span></span></li>
+    <li class="news-item"><span class="news-date">2020</span><span class="news-text"><strong>1st place</strong>, MBZIRC 2020 Challenge II — international robotics challenge (UAV grasping mechanism)</span></li>
+  </ul>
+</section>
+
+<section class="wrap" id="news">
+  <h2 class="section-title">Recent News</h2>
+  <ul class="news-list">
+    <li class="news-item"><span class="news-date">Jun 2026</span><span class="news-text"><a href="art.html"><em>Autoregressive Mosaics</em></a> selected for the <a href="https://ashwin-ned.github.io/autoregressive-mosaics/" target="_blank" rel="noopener">CVPR 2026 AI Art Gallery</a>.</span></li>
+    <li class="news-item"><span class="news-date">2026</span><span class="news-text">Our paper <a href="#publications"><em>MCP4IFC: IFC-based Building Design using LLMs</em></a> was accepted at EC3 2026 (Corfu).</span></li>
+    <li class="news-item"><span class="news-date">Jan 2026</span><span class="news-text">Launched a new personal site and <a href="https://ashwin-ned.github.io/blog/" target="_blank" rel="noopener">blog</a> — finally off Google Sites.</span></li>
+    <li class="news-item"><span class="news-date">Nov 2025</span><span class="news-text">Won <strong>1st place</strong> at the <a href="#awards">HACK:XR+AI Hackathon</a> (TUM) with “AURA”, an adaptive XR agent.</span></li>
+    <li class="news-item"><span class="news-date">Jul 2025</span><span class="news-text">Started my PhD in Computer Science at the University of Rostock, leading the robotics effort at <a href="https://www.core-network.ai" target="_blank" rel="noopener">CORE Labs</a>.</span></li>
+  </ul>
+  <p style="margin-top:1.1rem;"><a href="projects.html">Browse past projects →</a></p>
+</section>
+
+<section class="wrap" id="writing">
+  <h2 class="section-title">Writing</h2>
+  <a class="writing-row" href="https://ashwin-ned.github.io/blog/" target="_blank" rel="noopener">
+    <div class="meta">Jan 15, 2026 · meta, perception</div>
+    <h3>A new home for the lab notebook</h3>
+    <p>Why I moved off Google Sites, and how the blog works — push a markdown file, get a post.</p>
+  </a>
+  <p style="margin-top:0.8rem;"><a href="https://ashwin-ned.github.io/blog/" target="_blank" rel="noopener">Read the blog →</a></p>
+</section>
+
+<section class="wrap" id="offscreen">
+  <h2 class="section-title">Beyond research</h2>
+  <div class="prose"><p>Outside the lab I'm happiest outdoors — backpacking, camping, and in the ocean as a hobby surfer and PADI open-water diver. I shoot film photography and <a href="art.html">paint</a> — including two submissions to the CVPR Art Gallery — play poker, cook, and read science fiction.</p></div>
+  <div class="photo-strip">
+    <figure><img src="assets/img/outdoors.jpg" alt="Camping at sunset" loading="lazy"><figcaption>Camp at golden hour</figcaption></figure>
+    <figure><img src="assets/img/diving.jpg" alt="Open-water dive" loading="lazy"><figcaption>Open-water, off the boat</figcaption></figure>
+  </div>
+  <p style="margin-top:0.9rem;"><a href="art.html">See paintings &amp; AI art →</a></p>
+</section>
+
+<section class="wrap" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p class="prose" style="color:var(--muted);">Happy to talk about egocentric perception, robotics, or collaborations — email is the surest way to reach me.</p>
+  <div class="contact-row"><a href="mailto:ashwin.ned@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a><a href="https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 1 8.5 12 15l9-5.32V16h2V8.5L12 2Z"/><path d="M5 12.6V16c0 1.66 3.13 3.5 7 3.5s7-1.84 7-3.5v-3.4l-7 4.14-7-4.14Z"/></svg>Google Scholar</a><a href="https://github.com/ashwin-ned" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12 11.5 11.5 0 0 0 8.4 23c.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a><a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.25 8.25h4.5V24h-4.5V8.25ZM8.5 8.25h4.31v2.15h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V24h-4.5v-7.14c0-1.7-.03-3.9-2.37-3.9-2.38 0-2.74 1.85-2.74 3.77V24H8.5V8.25Z"/></svg>LinkedIn</a></div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Ashwin Nedungadi</span>
+    <span><a href="https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en" target="_blank" rel="noopener">scholar</a><a href="https://github.com/ashwin-ned" target="_blank" rel="noopener">github</a><a href="https://www.linkedin.com/in/ashwin-ned-152574103/" target="_blank" rel="noopener">linkedin</a></span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>

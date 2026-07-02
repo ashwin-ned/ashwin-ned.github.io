@@ -1,0 +1,15 @@
+# Edit these in one place; nav, contact, and footer all read from here.
+email: ashwin.ned@gmail.com
+links:
+  - name: Google Scholar
+    handle: scholar
+    display: Ashwin Nedungadi
+    url: https://scholar.google.com/citations?user=HD26ITEAAAAJ&hl=en
+  - name: GitHub
+    handle: github
+    display: "@ashwin-ned"
+    url: https://github.com/ashwin-ned
+  - name: LinkedIn
+    handle: linkedin
+    display: in/ashwin-ned
+    url: https://www.linkedin.com/in/ashwin-ned-152574103/

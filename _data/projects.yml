@@ -1,0 +1,114 @@
+# Reverse-chronological. Each entry renders as a timeline node on /projects/.
+# links: list of { label, url } — labels stay consistent (Paper, GitHub, Video,
+# Dataset, Project, Poster, VR App, Article).
+projects:
+  - title: Free Volume Estimation using Monocular Vision in Logistics
+    org: Fraunhofer IML — in partnership with DB Schenker
+    date: 2025-02
+    year: "2025"
+    summary: >-
+      Master's thesis: a computer-vision pipeline that estimates the free volume
+      inside shipping containers from a single phone image, replacing costly
+      manual measurement. The work fine-tunes monocular depth estimators on
+      domain-specific data, reconstructs watertight meshes from single-image
+      point clouds, and benchmarks against traditional methods — showing
+      monocular depth is viable for real logistics and supply-chain efficiency.
+    tags: [Monocular Depth, 3D Reconstruction, Logistics]
+    links:
+      - { label: Project, url: "https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/cargosight.html" }
+
+  - title: Anomaly Detection in Time-Series Data for Wire-Cutting
+    org: Institute for Production Systems (IPS), TU Dortmund — with Bosch
+    date: 2024-06
+    year: "2024"
+    summary: >-
+      Predictive maintenance for wire-cutting machinery. We analyse spectrograms
+      of high-frequency torque data to train neural networks that classify and
+      predict anomalies, using t-SNE and clustering to surface failure patterns
+      — enabling timely maintenance and reliable production systems.
+    tags: [Time Series, Spectrograms, Predictive Maintenance]
+    links:
+      - { label: GitHub, url: "https://github.com/ashwin-ned/bosch-wire-cutting-classification" }
+
+  - title: Generative-AI Solutions for Borussia Dortmund (BvB)
+    org: Chair of Digital Transformation, TU Dortmund
+    date: 2024-02
+    year: "2024"
+    summary: >-
+      A design-thinking and digital-innovation project with BvB's online
+      merchandising team. We built and presented a working prototype on Microsoft
+      Azure (Language Studio): a chatbot that collects feedback, answers product
+      questions, and helps customers pick the right sizes — balancing customer
+      need, market potential, and technical feasibility.
+    tags: [Generative AI, Azure, Product Prototype]
+    links: []
+
+  - title: Multi-View SfM for Historic Artifacts
+    org: Computer Vision Lab, Sapienza University, Rome
+    date: 2022-04
+    year: "2022"
+    summary: >-
+      An open-source Structure-from-Motion pipeline for reconstructing Roman
+      artifacts captured on mobile devices — letting students and archaeologists
+      worldwide access and examine museum pieces from Rome in 3D.
+    tags: [Structure from Motion, 3D Reconstruction, Open Source]
+    links:
+      - { label: GitHub, url: "https://github.com/ashwin-ned/SfM4Artifacts" }
+
+  - title: Stereo Reconstruction of Martian Geology
+    org: Image Processing Group, TU Dortmund
+    date: 2021-10
+    year: "2021"
+    summary: >-
+      Building 3D mesh models of the Martian surface from the engineering cameras
+      of Perseverance (Mars 2020) and Curiosity (MSL). The work spanned image
+      processing and 3D reconstruction via stereo and multi-view SfM, fused the
+      result with a Digital Elevation Model, and integrated it into a VR
+      experience.
+    tags: [Stereo Vision, Planetary Mapping, VR]
+    links:
+      - { label: Video, url: "https://www.youtube.com/watch?v=rSAgie2GPm8" }
+      - { label: Tools, url: "https://github.com/tusharvan/mars2020_PDS_tools" }
+
+  - title: Industrial Bin Picking
+    org: Fraunhofer IML / TU Dortmund — ML2R initiative
+    date: 2021-03
+    year: "2021"
+    summary: >-
+      A vision-based bin-picking system for industrial robotics. I built the
+      computer-vision, grasping, and point-cloud pipelines on detectron2, using
+      RGB-D data from a Zivid camera for precise recognition and localization,
+      and helped create the DoPose dataset via an Iterative Closest Point (ICP)
+      model-generation pipeline.
+    tags: [RGB-D, Grasping, Detectron2, Dataset]
+    links:
+      - { label: Dataset, url: "https://zenodo.org/records/6103779" }
+      - { label: ML2R, url: "https://www.ml2r.de/en/landingpage/" }
+
+  - title: Grasping Mechanism for UAVs — MBZIRC 2020
+    org: Multi-Robot Systems, Czech Technical University
+    date: 2019-01
+    year: "2019"
+    summary: >-
+      Bachelor's thesis: an active, reliable grasping mechanism for autonomous
+      UAVs to build cooperative walls for the Mohamed Bin Zayed International
+      Robotics Challenge 2020. The team placed first, with a short paper
+      published in Springer's Lecture Notes in Computer Science (LNCS).
+    tags: [UAV, Mechatronics, Grasping]
+    links:
+      - { label: Paper, url: "https://link.springer.com/chapter/10.1007/978-3-030-43890-6_13" }
+      - { label: Article, url: "https://mrs.fel.cvut.cz/mbzirc2020" }
+      - { label: GitHub, url: "https://github.com/ashwin-ned/Electromagnetic-Gripper" }
+
+  - title: LIDAR Integration for NIFTi
+    org: Centre for Machine Perception, Czech Technical University
+    date: 2018-07
+    year: "2018"
+    summary: >-
+      With the Vision for Robotics and Autonomous Systems (VRAS) group on the
+      NIFTi EU project: integrating a Velodyne VLP-16 LiDAR onto a ground robot
+      so it could perform SLAM and localize accurately under low-visibility,
+      hazardous conditions for search-and-rescue.
+    tags: [LiDAR, SLAM, Search & Rescue]
+    links:
+      - { label: NIFTi, url: "https://www.dfki.de/web/forschung/projekte-publikationen/projekte-uebersicht/projekt/nifti/" }
