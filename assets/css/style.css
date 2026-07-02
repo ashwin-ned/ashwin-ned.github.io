@@ -266,7 +266,10 @@ section[id], header[id] { scroll-margin-top: 64px; }
 .lb-figure img { max-width: 92vw; max-height: 82vh; width: auto; height: auto; border-radius: 8px; box-shadow: 0 12px 40px rgba(0,0,0,.5); }
 .lb-figure figcaption { color: #e7e9ec; font-size: 0.85rem; text-align: center; }
 .lb-close { position: fixed; top: 1rem; right: 1.2rem; width: 42px; height: 42px; border-radius: 50%;
-  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25); color: #fff; font-size:
+  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25); color: #fff; font-size: 1.6rem;
+  line-height: 1; display: grid; place-items: center; cursor: pointer; transition: background .2s, border-color .2s; }
+.lb-close:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.4); }
+
 /* ── Jekyll blog (matches site design) ──────────────────────────────── */
 .site-main { display: block; }
 .section { padding-block: 1.6rem; }
