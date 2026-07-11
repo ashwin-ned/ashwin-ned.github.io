@@ -36,7 +36,7 @@ feed:
 defaults:
   - scope: { path: "", type: "posts" }
     values: { layout: "post" }
-  - scope: { path: "" }
+  - scope: { path: "", type: "pages" }
     values: { layout: "page" }
 
 # Pagination-free for v1 — add jekyll-paginate-v2 later if the blog grows.
